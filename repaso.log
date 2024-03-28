@@ -1,0 +1,30 @@
+[2024-03-13 16:34:56] [ INFO ] [BD:59] se creo la tabla odontologos
+[2024-03-13 16:34:56] [ INFO ] [BD:61] se insertó un valor en la tabla odontologos
+[2024-03-13 16:38:39] [ INFO ] [BD:59] se creo la tabla odontologos
+[2024-03-13 16:38:39] [ INFO ] [BD:61] se insertó un valor en la tabla odontologos
+[2024-03-13 16:52:37] [ INFO ] [BD:59] se creo la tabla odontologos
+[2024-03-13 16:52:37] [ INFO ] [BD:61] se insertó un valor en la tabla odontologos
+[2024-03-13 16:52:58] [ INFO ] [OdontologoDaoH2:121] Estamos consultando todos los Odontologos.
+[2024-03-13 17:04:07] [ INFO ] [BD:59] se creo la tabla odontologos
+[2024-03-13 17:04:07] [ INFO ] [BD:61] se insertó un valor en la tabla odontologos
+[2024-03-13 17:04:12] [ INFO ] [OdontologoDaoH2:121] Estamos consultando todos los Odontologos.
+[2024-03-13 17:09:12] [ INFO ] [BD:59] se creo la tabla odontologos
+[2024-03-13 17:09:12] [ INFO ] [BD:61] se insertó un valor en la tabla odontologos
+[2024-03-13 17:09:18] [ INFO ] [OdontologoDaoH2:121] Estamos consultando todos los Odontologos.
+[2024-03-26 16:30:54] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@3128007e
+[2024-03-26 16:33:43] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@6d28383d
+[2024-03-26 16:34:01] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@6f764074
+[2024-03-26 16:36:21] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@5e4e23d
+[2024-03-26 16:43:07] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@59f68852
+[2024-03-26 16:47:23] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@26ae20ad
+[2024-03-26 16:49:29] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@6c4cfe41
+[2024-03-26 16:52:53] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@16079198
+[2024-03-26 17:08:51] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@23fc3abd
+[2024-03-26 21:01:24] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@298653d0
+[2024-03-28 15:47:45] [ INFO ] [OdontologoService:50] No se pudo actualizar el odontólogo con id: 1
+[2024-03-28 15:50:41] [ INFO ] [OdontologoService:50] No se pudo actualizar el odontólogo con id: 1
+[2024-03-28 15:56:39] [ INFO ] [OdontologoService:41] No se encontró el odontólogo con  id 1
+[2024-03-28 15:58:07] [ INFO ] [OdontologoService:50] No se pudo actualizar el odontólogo con id: 5
+[2024-03-28 15:58:07] [ INFO ] [OdontologoService:60] No se encontró el odontólogo a eliminar con id: 6
+[2024-03-28 16:32:03] [ INFO ] [PacienteService:42] No se encontró el paciente con  id 1
+[2024-03-28 16:32:30] [ INFO ] [PacienteService:53] No se encontró el paciente a eliminar con id: 3
