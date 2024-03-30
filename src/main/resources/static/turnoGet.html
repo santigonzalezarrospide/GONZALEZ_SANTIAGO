@@ -9,6 +9,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script text="text/javascript" src="/js/getTurno.js"></script>
+    <script text="text/javascript" src="/js/updateTurno.js"></script>
+    <script text="text/javascript" src="/js/deleteTurno.js"></script>
 </head>
 
 <body>
@@ -54,7 +56,7 @@
 
 <div class="container">
     <div id="div_turno_table">
-        <h1>Odontólogos</h1>
+        <h1>Turnos</h1>
         <div class="row table-responsive">
             <table id="turnoTable" class="table table-striped">
                 <thead>
@@ -81,17 +83,26 @@
                     <input type="text" class="form-control" id="turno_id" readonly>
                 </div>
 
-                <div class="form-group">
-                    <label >Odontólogo:</label>
-                    <input type="text" class="form-control" placeholder="odontólogo" id="odontologo">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="odontologo">Odontologos</label>
+                    </div>
+                    <select class="custom-select" id="odontologo">
+
+                    </select>
                 </div>
-                <div class="form-group">
-                    <label >Paciente</label>
-                    <input type="text" class="form-control" placeholder="paciente" id="paciente">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="paciente">Paciente</label>
+                    </div>
+                    <select class="custom-select" id="paciente">
+
+                    </select>
                 </div>
+
                 <div class="form-group">
-                    <label >Fecha y hora:</label>
-                    <input type="datetime-local" class="form-control" placeholder="fecha y hora" id="fecha">
+                    <label class="control-label" for="fecha">Fecha y hora:</label>
+                    <input type="date" class="form-control" id="fecha" name="fecha" readonly/>
                 </div>
                 <button type="submit" class="btn btn-primary">Modificar</button>
             </form>

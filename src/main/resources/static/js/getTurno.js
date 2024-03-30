@@ -16,14 +16,15 @@ window.addEventListener('load', function () {
                 let tr_id = 'tr_' + turno.id;
                 turnoRow.id = tr_id;
 
-                 //let deleteButton = '<button' + ' id=' + '\"' + 'btn_delete_' + paciente.id + '\"' + ' type="button" onclick="deleteBy('+paciente.id+')" class="btn btn-danger btn_delete">' + '&times' + '</button>';
-                 //let updateButton = '<button' + ' id=' + '\"' + 'btn_id_' + paciente.id + '\"' + ' type="button" onclick="findBy('+paciente.id+')" class="btn btn-info btn_id">' + paciente.id + '</button>';
+                 let deleteButton = '<button' + ' id=' + '\"' + 'btn_delete_' + turno.id + '\"' + ' type="button" onclick="deleteBy('+turno.id+')" class="btn btn-danger btn_delete">' + '&times' + '</button>';
+                 let updateButton = '<button' + ' id=' + '\"' + 'btn_id_' + turno.id + '\"' + ' type="button" onclick="findBy('+turno.id+')" class="btn btn-info btn_id">' + turno.id + '</button>';
 
                  turnoRow.innerHTML =
                                     '<td class=\"td_id\">' + turno.id + '</td>' +
                                     '<td class=\"td_odontologo\">' + turno.odontologo.nombre.toUpperCase() + '</td>' +
                                     '<td class=\"td_paciente\">' + turno.paciente.nombre.toUpperCase() + '</td>' +
-                                    '<td class=\"td_fechaHora\">' + turno.fecha + '</td>'
+                                    '<td class=\"td_fechaHora\">' + turno.fecha + '</td>' +
+                                    '<td>' + updateButton + deleteButton + '</td>';
 
             };
 

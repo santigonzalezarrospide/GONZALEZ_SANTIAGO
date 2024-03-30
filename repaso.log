@@ -28,3 +28,18 @@
 [2024-03-28 15:58:07] [ INFO ] [OdontologoService:60] No se encontró el odontólogo a eliminar con id: 6
 [2024-03-28 16:32:03] [ INFO ] [PacienteService:42] No se encontró el paciente con  id 1
 [2024-03-28 16:32:30] [ INFO ] [PacienteService:53] No se encontró el paciente a eliminar con id: 3
+[2024-03-30 16:24:43] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@3c8fa3ab
+[2024-03-30 16:30:01] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@5241680d
+[2024-03-30 16:33:17] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@57959a49
+[2024-03-30 16:40:34] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@3d6468fc
+[2024-03-30 16:44:55] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@6d9f1511
+[2024-03-30 16:46:52] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@14acef7a
+[2024-03-30 16:48:59] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@2a99e0d7
+[2024-03-30 16:51:17] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@44edcbcc
+[2024-03-30 16:51:35] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@23af2506
+[2024-03-30 16:56:07] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@56357eee
+[2024-03-30 16:57:36] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@6ddf6e9e
+[2024-03-30 16:59:41] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@520af0f0
+[2024-03-30 17:04:03] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@60a71248
+[2024-03-30 17:05:41] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@8c7f3b6
+[2024-03-30 17:07:31] [ INFO ] [TurnoController:45] esto trae el turno: com.example.ClinicaOdontologica.entity.Turno@53f832e8

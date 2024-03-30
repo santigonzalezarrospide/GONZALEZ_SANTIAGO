@@ -75,9 +75,9 @@ public class TurnoController {
         Optional<Turno> turnoExistente = turnoService.buscarPorId(id);
         if (turnoExistente.isPresent()) {
             turnoService.eliminar(id);
-            return ResponseEntity.ok("Turno con ID " + id + " eliminado correctamente.");
+            return ResponseEntity.ok().body("{\"message\": \"Turno con ID " + id + " eliminado correctamente.\"}");
         } else {
-            return ResponseEntity.ok("El turno con ID " + id + " no existe.");
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("{\"error\": \"El turno con ID " + id + " no existe.\"}");
         }
     }
 
